@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 const express = require('express');
 const app = express();
-const Notes = require('./Develop/db/db.json');
+const Notes = require('./db/db.json');
 const { notStrictEqual } = require('assert');
 
 //set up for the Express to handle data parsing
